@@ -19,14 +19,14 @@
 # -----------------------------------------------------------------------------------------------
 
 # Manuelle eintragung von Metadaten
-ALBUM="Shantae: Half-Genie Hero Soundtrack"
-ARTIST="Jake Kaufman"
-ALBUM_ARTIST="WayForward"
+ALBUM="Game Soundtrack"
+ARTIST="Künstler"
+ALBUM_ARTIST="Album Künstler"
 DISK_NUM=1  # Hier die Nummer der Disk eintragen
 YEAR=2016   # Hier das Erscheinungsjahr des Albums eintragen
 
 # Zielordner (alle Musikdateien)
-FOLDER="/home/angelo/Downloads/Shantae/"
+FOLDER="/home/user/Downloads/Game/"
 
 # Prüft, ob der Ordner existiert
 if [ ! -d "$FOLDER" ]; then
